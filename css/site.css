@@ -1,0 +1,463 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.bg-1{
+    height: 100%;
+    background: url("../img/bg.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+/*=======================================================================
+*
+* Font Styles
+*
+ ========================================================================*/
+
+header{
+    font-size: 2.3em;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-size: 1.5em;
+}
+.robo-font{
+    font-family: 'Roboto', sans-serif;
+}
+.txt-cap{
+    text-transform: capitalize;
+}
+.txt-ct{
+    text-align: center;
+}
+.small{
+    font-size: 50%;
+    font-weight: 200;
+    line-height: 1;
+    color: #c1c8e4;
+}
+.txt-bold{
+    font-weight: bold;
+}
+/*====================================================================
+*
+*  Margins, Padding and Border-radius
+*
+ ===================================================================*/
+.mr-16{
+    margin: 16px;
+}
+.mr-lr{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.pd-8{
+    padding: 8px;
+}
+.pd-16{
+    padding: 16px;
+}
+.rd-8{
+    border-radius: 8px;
+}
+.rd-tp{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/*====================================================================
+*
+*  Cards and Colors
+*
+ ======================================================================*/
+.card {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.3s;
+}
+.card-hover:hover{
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 8px 40px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.card-h3, .card-p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.c-blue-1{
+    color: #1cacd7;
+}
+.c-purple{
+    color: #8806d0;
+}
+.c-white{
+    color: white;
+}
+.text-dark{
+    color: black;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+
+/*====================================================================
+*
+* Form inputs and Buttons
+*
+ =====================================================================*/
+.form-input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    display: block;
+    font-size: 1em;
+    border: 1px solid #c1c8e4;
+    outline: none;
+}
+.search-bar{
+    width: 100%;
+    font-size: 1em;
+    border: 0px solid #c1c8e4;
+    outline: none;
+}
+.form-input:focus{
+    border: 1px solid #84ceeb;
+}
+
+.btn{
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #84ceeb;
+    color: white;
+}
+.btn:focus{
+    outline: none;
+    background-color: #84ceeb;
+}
+.btn-c-1{
+    color: #ffffff;
+    background: #8806d0;
+    border: 1px solid #c1c8e4;
+}
+.btn-sm{
+    padding: 4px 8px;
+}
+.btn-md{
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-blk{
+    width: 100%;
+}
+.accordion{
+    background-color: #eee;
+    color: #8806d0;
+    cursor: pointer;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #84ceeb;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/*
+.dot {
+    height: 20px;
+    width: 20px;
+    color: #ffffff;
+    background-color: #8806d0;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+*/
+ul.breadcrumb{
+    padding: 10px 16px;
+    background-color: #8806d0;
+}
+ul.breadcrumb li {
+    display: inline;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #ffffff;
+}
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+}
+.file-input{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.file-input + label{
+    font-size: 1.25em;
+    font-weight: 700;
+    display: inline-block;
+}
+
+/*=====================================================================
+*
+*  Grid and Positioning
+*
+ =====================================================================*/
+.fx-d{
+    display: flex;
+}
+.fx-col{
+    flex-direction: column;
+}
+.fx-ct-items{
+    align-items: center;
+}
+.fx-j-ct{
+    justify-content: center;
+}
+.fx-j-ard{
+    justify-content: space-around;
+}
+.fx-j-btw{
+    justify-content: space-between;
+}
+.fx-j-end{
+    justify-content: flex-end;
+}
+.fx-bs-items{
+    align-items: baseline;
+}
+.fx-str{
+    flex: 0.5 0 auto;
+}
+.hide{
+    display: none;
+}
+.sidenav{
+    position: fixed;
+    top: 70px;
+}
+.sidenav a{
+    display: block;
+}
+.img-rwd{
+    width: 100%;
+    height: auto;
+}
+.img-rwd-1{
+    width: 100%;
+    height: 100%;
+}
+.d-board-img{
+    height: 300px;
+}
+.pst-rv{
+    position: relative;
+}
+.pst-abs{
+    position: absolute;
+}
+/*===================================================================
+*
+* Labels, Sliders and checkbox
+*
+=====================================================================*/
+.label{
+    display: block;
+    cursor: pointer;
+    padding-left: 35px;
+    margin-bottom: 12px;
+}
+.label input {
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #c1c8e4;
+    border-radius: 50%;
+}
+.label:hover input ~ .checkmark {
+    background-color: #84ceeb;
+}
+.label input:checked ~ .checkmark {
+    background-color: #5680e9;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.label input:checked ~ .checkmark:after {
+    display: block;
+}
+.label .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.switch {
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.slider {
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #5680e9;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*======================================================================
+*
+* Tables
+*
+ ======================================================================*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+.rt-align{
+    text-align: right;
+}
+.responsive-table{
+    overflow-x: auto;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/*======================================================================
+*
+*  Responsive
+*
+ =======================================================================*/
+@media only screen and (max-width: 600px) {
+    .hide-sm{
+        display: none;
+    }
+    .fx-col-rv{
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .fx-col-rwd{
+        flex-direction: row;
+    }
+
+    /* Flex display widths*/
+    .fx-1 {flex: 8.33%;}
+    .fx-2 {flex: 16.66%;}
+    .fx-3 {flex: 25%;}
+    .fx-4 {flex: 33.33%;}
+    .fx-5 {flex: 41.66%;}
+    .fx-6 {flex: 50%;}
+    .fx-7 {flex: 58.33%;}
+    .fx-8 {flex: 66.66%;}
+    .fx-9 {flex: 75%;}
+    .fx-10 {flex: 83.33%;}
+    .fx-11 {flex: 91.66%;}
+    .fx-12 {flex: 100%;}
+
+    .txt-l-rwd{
+        text-align: left;
+    }
+    .hide-md{
+        display: none;
+    }
+    .pd-tp-64-rwd{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .pd-tp-96-rwd{
+        padding-top: 96px;
+        padding-bottom: 96px;
+
+    }
+}

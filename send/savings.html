@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0" >
+		<title>Savings And Loans</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" href="../css/site.css">
+</head>
+<body class="container bg-1">
+
+	<header>
+			<a href="../dashboard.html" class="text-dark txt-cap"><span>Home</span></a>
+		</header>
+		<hr>
+		<ul class="breadcrumb">
+			<li><a href="mobile.html">Mobile</a></li>
+			<li><a href="deposite.html">Deposite</a></li>
+			<li><a href="withdraw.html">Withdraw</a></li>
+		</ul>
+
+		<div class="fx-d">
+			<div class="fx-d fx-col fx-col-rwd">
+				 <div class="fx-6 card card-hover bg-white rd-8 mr-16">
+				 	<img src="../img/icos/save.png" class="img-rwd-1 rd-8" width="128" height="128">
+				 </div>
+				 <div class="fx-6 pd-16">
+				 	<h3 class="txt-cap robo-font card-h3">Savings Account</h3>
+				 	<p class="txt-cap card-p">Account Details</p>
+				 	<p>
+				 		<ol>
+				 			<li>Owner: Piggy Admin </li>
+				 			<li>CreationDate: 27/09/019</li>
+				 			<li>Type: Savings</li>
+				 			<li>Credit score: 99</li>
+				 			<li>sent: 0.00</li>
+				 			<li>Recived: 10,000</li>
+				 		</ol>
+				 	</p>
+				 	<p><span class="txt-bold">Active</span><input type="text" class="form-input rd-8" name="activity" id="act" value="yes"></p>
+				 	<p><span class="txt-bold">Balance</span><input type="number" class="form-input rd-8" name="balance" id="balance" value="10000"></p>
+				 </div>
+				</div>
+				</div>
+				<div class="card card-hover bg-white rd-8 pd-16">
+					<form action="send-money.html" class="">
+						<h3 class="c-blue-1 txt-cap txt-ct">Send some Money</h3>
+						<span class="txt-cap txt-ct">saved Account numbers </span>
+						<div class="">
+						<select class="">
+							<option value="0">09-32-42334-432</option>
+							<option value="1">09-32-42334-432</option>
+							<option value="2">09-32-42334-432</option>
+							<option value="3">09-32-42334-432</option>
+							<option value="4">09-32-42334-432</option>
+						</select>
+					</div>
+					<p class="c-blue-1">Account:<br> New Account Number: </p>
+					<label for="card" class="c-blue-1">Enter account number</label>
+					<input type="number" class="form-input rd-8" name="account-number" id="card" placeholder="Enter Acount Number">
+					<label for="username" class="c-blue-1">Enter Account Name</label>
+					<input type="text" class="form-input rd-8" name="uname" id="uname" placeholder="Enter Account Name">
+					<label for="amount" class="c-blue-1"> Enter Ammount </label>
+					<input type="number" class="form-input -rd-8" name="Amount" placeholder="Enter Desired Amount">
+					<div class="fx-d fx-j-end pd-8">
+						<button type="reset" class="btn btn-c-1 bt-md rd-8 txt-bold mr-lr">Cancel</button>
+						<button type="submit" class="btn btn-c-1 bt-md rd-8 txt-cap mr-lr">Send</button>
+					</div>
+					</form>
+				</div>
+			</div>
+		</body>
+		</html>

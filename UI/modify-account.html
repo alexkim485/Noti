@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="widt=device-width,initial-scale=1.0">
+	<title>MODIFY ACCOUNT </title>
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/site.css">
+</head>
+<body class="container bg-1">
+	<div class="navbar fx-d fx-col fx-col-rwd fx-j-btw fx-ct-items pd-8 robo-font">
+		<div class="navbar-brand">
+			<a href="../dashboard.html" class="txtx-dark txt-cap"> Home </a>
+		</div>
+		<div class="fx-d">
+			<a href="../index.html" class="btn btn-c-1 btn-sm rd-8 mr-lr"><i class="fas fa-tachometer-alt"></i><span>Logout</span></a>
+		</div>
+	</div>
+	<div class="fx-d fx-col fx-col-rwd fx-col-rv fx-ct-items fx-j-ct fx-j-ard">
+		<div class="fx-7 card bg-white mr-16 pd-16 rd-8 txt-l-rwd">
+			<h3 class="txt-cap c-blue-1">Account Types: </h3>
+			<hr>
+			<p>Toggle Switch To Mode Your Accounts </p>
+			<table>
+				<tr>
+					<th>Deactivate</th>
+					<th>Activate</th>
+				</tr>
+				<tr>
+					<td>Mobile Payments</td>
+					<td>
+						<label class="switch pst-rv">
+							<input type="checkbox" name="checkbox" class="hide" checked>
+							<span class="slider round pst-abs"></span>
+						</label>
+					</td>
+				</tr>
+				<td> Deposite</td>
+				<td>
+					<label class="switch pst-rv">
+						<input type="checkbox" name="checkbox" class="hide" checked>
+						<span class="slider round pst-abs"></span>
+					</label>
+				</td>
+				<td>Withdraw</td>
+				<td>
+					<label class="switch pst-rv">
+						<input type="checkbox" name="checkbox" class="hide" checked>
+						<span class="slider round pst-abs"></span>
+					</label>
+				</td>
+			</table>
+			<hr>
+			<p class="txtx-dark txt-cap">Balance Enquiry</p>
+			
+			<table>
+				<tr>
+					<th>Account</th>
+					<th>Show Balance</th>
+				</tr>
+				<tr>
+					<td>Mobile Payments</td>
+					<td>
+						<label class="switch pst-rv">
+							<input type="checkbox" name="checkbox" class="hide" checked>
+							<span class="slider round pst-abs"></span>
+						</label>
+					</td>
+				</tr>
+				<td> Deposite</td>
+				<td>
+					<label class="switch pst-rv">
+						<input type="checkbox" name="checkbox" class="hide" checked>
+						<span class="slider round pst-abs"></span>
+					</label>
+				</td>
+				<td>Withdraw</td>
+				<td>
+					<label class="switch pst-rv">
+						<input type="checkbox" name="checkbox" class="hide" checked>
+						<span class="slider round pst-abs"></span>
+					</label>
+				</td>
+			</table>
+		</div>
+		<div class="fx-5 card bg-white mr-16 rd-8 pd-16">
+			<h2 class="txt-ct txt-cap c-blue-1">Register New Account</h2>
+			<form>
+				<label for="username" class="hide">Account:</label>
+				<input class="form-input rd-8" id="username" name="uname" placeholder="AccountName">
+				<label for="password" class="hide">Password:</label>
+				<input class="form-input rd-8" type="password" id="password" name="pwd" placeholder="Password">
+				<label for="password-confirm" class="hide">Confirm password: :</label>
+				<input class="form-input rd-8" type="password" id="password-confirm" name="pwd" placeholder="password-confirm">
+				<h3 class="txt-ct txt-cap c-blue-1">Account Type</h3>
+				
+				<label for="account-radio" class="label c-blue-1 pst-rv">Mobile payments:>
+				<input type="radio" name="status" id="account-radio" class="opacity-0 pst-abs" checked>
+				<span class="pst-abs checkmark"></span>
+			</label>
+			<label for="account-radio" class="label c-blue-1 pst-rv">Deposite:>
+				<input type="radio" name="status" id="account-radio" class="opacity-0 pst-abs" checked>
+				<span class="pst-abs checkmark"></span>
+			</label>
+			<label for="account-radio" class="label c-blue-1 pst-rv">:Savings:>
+				<input type="radio" name="status" id="account-radio" class="opacity-0 pst-abs" checked>
+				<span class="pst-abs checkmark"></span>
+			</label>
+			<label for="account-radio" class="label c-blue-1 pst-rv">:Withdrawal:>
+				<input type="radio" name="status" id="account-radio" class="opacity-0 pst-abs" checked>
+				<span class="pst-abs checkmark"></span>
+			</label>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

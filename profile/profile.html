@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Profile Overview </title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/site.css">
+</head>
+<body class="container bg-1">
+	<div class="navbar fx-d fx-col -fx-col-rwd fx-j-btw fx-ct-items pd-8 robo-font">
+		<div class="navbar-brand">
+			<a href="../dashboard.html" class="txt-dark txt-cap"><span class="">Home</span></a>
+		</div>
+		<div class="fx-d">
+			<a href="../dashboard.html" class="btn btn-c-1 btn-sm rd-8 mr-lr"><i class="fa fa-bell fa-fw"></i><span>Edit</span></a>
+			<a href="../index.html" class="btn btn-c-1 btn-sm rd-8 mr-lr"><i class="fa fa-sign-out-alt fa-fw"></i><span> logout</span></a>
+		</div>
+	</div>
+	<hr>
+	<ul class="breadcrumb">
+		<li><a href="../send/mobile.html">Mobile</a></li>
+		<li><a href="../send/deposite.html"> Deposite</a></li>
+		<li><a href="../send/withdraw.html"> Withdrawl</a></li>
+		<li><a href="../send/savings.html"> Savings</a></li>
+	</ul>
+
+	<div class="fx-d">
+		<div class="fx-d fx-col fx-col-rwd">
+			<div class="card-p">
+				<img src="../img/users/user-avatar.png" class="img-rd rd-8" width="100" height="100">
+			</div>
+			<div class="fx-6 pd-16">
+				<h3 class="txt-cap robo-font card-h3">User</h3>
+				<div class="fx-d fx-col fx-col-rwd fx-j-ard pd-8">
+					<div class="card card-hover bg-white rd-8 pd-16">
+				<form action="edit.html" class="">
+					<fieldset class="">
+						<legend class="txt-dark txt-cap">User Info</legend>
+						<div class="">
+						<label for="username">Name: </label>
+						<input type="text" class="form-input rd-8" id="username" name="uname" value="piggy admin">
+					</div>
+					 <button type="submit" class="btn btn-md btn-blk btn-c-1 rd-8 txt-cap">edit</button>
+						<div class="">
+						<label for="email">Email: </label>
+						<input type="text" class="form-input rd-8" id="email" name="email" value="piggy@mail.com">
+					</div>
+					 <button type="submit" class="btn btn-md btn-blk btn-c-1 rd-8 txt-cap">edit</button>
+						<div class="">
+						<label for="password">Password: </label>
+						<input type="password" class="form-input rd-8" id="pwd" name="password" value="*************">
+					</div>
+					 <button type="submit" class="btn btn-md btn-blk btn-c-1 rd-8 txt-cap">edit</button>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<p><span class="txt-bold">Active</span><input type="text" class="form-input rd-8" name="activity" id="act" value="yes"></p>
+		<p><span class="txt-bold">Balance</span><input type="number" class="form-input rd-8" name="balance" id="balance" value="10000"></p>
+		<div class="fx-d fx-j-ct">
+			<a href="../UI/view-transaction.html" class="btn btn-md rd-8"><i></i>View Log</a>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>

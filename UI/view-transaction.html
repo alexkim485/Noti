@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Transaction Logs</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/site.css">
+</head>
+<body class="container bg-1">
+	<div class="navbar fx-d fx-col fx-col-rwd fx-j-btw fx-ct-items pd-8 robo-font">
+		<div class="navbar-brand">
+			<a href="../dashboard.html" class="txt-dark txt-cap"><span class="small">Home</span></a>
+		</div>
+		<div class="fx-d">
+			<a href="../index.html" class="btn btn-c-1 btn-sm rd-8 mr-lr"><i class="fa fa-sign-out-alt fa-fw"></i><span>Logout</span></a>
+		</div>
+	</div>
+	<div class="fx-d fx-j-end mr-16">
+		<label>Trasaction Records for:&nbsp</label>
+		<select class="">
+			<option value="0">Annual transaction</option>
+			<option value="1">January</option>
+			<option value="2">February</option>
+			<option value="3">March</option>
+			<option value="4">April</option>
+			<option value="5">May</option>
+			<option value="6">June</option>
+			<option value="7">July</option>
+			<option value="8">August</option>
+			<option value="9">September</option>
+			<option value="10">October</option>
+			<option value="11">November</option>
+			<option value="12">December</option>
+		</select>
+	</div>
+	<div class="mr-16">
+		<button class="accordion bt-blk txt-bold">Jan</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th></th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="accordion bt-blk txt-bold">Feb</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="accordion bt-blk txt-bold">Mar</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="accordion bt-blk txt-bold">Apr</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="accordion bt-blk txt-bold">May</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="accordion bt-blk txt-bold">Jun</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="accordion bt-blk txt-bold">Jul</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="accordion bt-blk txt-bold">Aug</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="accordion bt-blk txt-bold">Sep</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="accordion bt-blk txt-bold">Oct</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="accordion bt-blk t">Nov</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="accordion bt-blk txt-bold">Dec</button>
+			<div class="panel">
+				<div class="reponsive-table">
+					<table>
+						<tr>
+							<th>Dposite</th>
+							<th>Withdrawal</th>
+							<th>Location</th>
+							<th>Mobile(payment)</th>
+							<th>Received</th>
+							<th>Sent</th>
+							<th>Tax</th>
+							<th class="rt-align">Balance</th>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td>6000.00</td>
+							<td>2000.00</td>
+							<td>CBD</td>
+							<td></td>
+							<td>6000.00</td>
+							<td>0.00</td>
+							<td>0.00%</td>
+							<td class="rt-align">10000.00</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Total:</td>
+							<td class="rt-align txt-bold">40000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	<script src="../js/main.js"></script>
+	</body>
+	</html>
