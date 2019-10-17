@@ -20,5 +20,5 @@ function hidePassword() {
     var x = document.getElementById("password");
     x.type = 'password';
 }
-document.getElementById("foot").innerHTML= "<p> &copy;  " + new Date().getFullYear() + "All rights reserved.</p>";
+document.getElementById("foot01").innerHTML= "<p>&copy;  " + new Date().getFullYear() + "All rights reserved.</p>";
 
