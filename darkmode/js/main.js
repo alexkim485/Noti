@@ -20,5 +20,14 @@ function hidePassword() {
     var x = document.getElementById("password");
     x.type = 'password';
 }
-document.getElementById("foot01").innerHTML= "<p>&copy;  " + new Date().getFullYear() + "  All rights reserved.</p>";
+function alert(){
+    alert("canceling transaction");
+}
+function send(name,password){
+    var password = comfirm(" Enter password");
+    password.type = 'password';
+    alert(password);
 
+}
+document.getElementById("foot01").innerHTML= "<p> &copy;  " + new Date().getFullYear() + "  All Rights Reserved.</p>"
+//document.getElementById("foot01").innerHTML= "<p> Learn More About Our services on : <ul><li><a href"">Telegram</a></ul></p>";
