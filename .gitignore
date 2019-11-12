@@ -6,3 +6,8 @@ bankmanagement
 bankmanagement.cpp  
 bankmanagement.exe  
 bankmanagement.o
+.cpp
+.exe
+.o
+.dat
+*~
