@@ -1,10 +1,6 @@
 Noti.sublime-project 
 Noti.sublime-workspace
-src/c++/account.dat  
-src/c++bankmanagement  
-src/c++bankmanagement.cpp  
-src/c++bankmanagement.exe  
-src/c++bankmanagement.o
+src/c++/
 *.cpp
 *.exe
 *.o
